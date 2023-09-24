@@ -30,7 +30,7 @@ width: 80%;
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(/files/background/Stars.png);
+    background-image: url(files/background/Stars.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Add this line */
