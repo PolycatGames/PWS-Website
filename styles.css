@@ -1,0 +1,50 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0;
+    opacity: .5;
+}
+.alpha-gradient{
+            background: linear-gradient(white 0%, transparent 87%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+}
+.line{
+border-bottom: 1px solid white;
+width: 80%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/files/background/Stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Add this line */
+    color: white;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 2000px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+article{
+    width: 1000px;
+    padding: 0 20px;
+}
